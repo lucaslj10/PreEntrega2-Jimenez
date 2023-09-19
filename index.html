@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DBZ SHOP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>¡Hola,soy Goku! ¿Qué querés comprar?</h1>
+      <ul>
+        <li onclick="comprar(pocion)">Habilidad <span>1000$$</span></li>
+        <li onclick="comprar(espada)">Tecnica <span>2000$$</span></li>
+        <li onclick="comprar(escudo)">Semillas <span>500$$</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Mi inventario</h2>
+      <ul id="inventario"></ul>
+      <h2 id="coins">Coins: <span></span></h2>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
